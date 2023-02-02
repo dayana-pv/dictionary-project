@@ -7,10 +7,17 @@ export default function App() {
       <div className="container">
         <header className="App-header"></header>
         <main>
-          <Dictionary defaultKeyword="hello" />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by SheCodes</small>
+          <a
+            href="https://github.com/dayana-pv/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code{" "}
+          </a>
+          by Dayana Peve
         </footer>
       </div>
     </div>

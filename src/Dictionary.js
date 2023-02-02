@@ -52,7 +52,7 @@ export default function Dictionary(props) {
           <br /> <br />
           <form onSubmit={handleSubmit} class="row form-dictionary">
             <div className="col-1"></div>
-            <div className="col-9 form-dictionary23">
+            <div className="col-9">
               <input
                 type="search"
                 onChange={handleKeywordChange}
@@ -60,7 +60,7 @@ export default function Dictionary(props) {
                 defaultValue={props.defaultKeyword}
               />
             </div>
-            <button type="button" class="col-1 btn button-dictionary">
+            <button type="submit" class="col-1 btn button-dictionary">
               <i class="fas fa-search"></i>
             </button>
           </form>
